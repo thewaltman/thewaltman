@@ -78,11 +78,26 @@ body {
   padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
+/* Image */
+.headerimg {
   width: 100%;
-  padding: 20px;
+}
+
+.img-gradient {
+  max-width: 100%;
+  max-height: 150px;
+  margin: 0 0 40px 0;
+  overflow: clip;
+}
+
+.img-gradient::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -50px;
+  height: 50px;
+  width: 100%;
+  content: '';
 }
 
 /* Add a card effect for articles */
@@ -97,6 +112,10 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.fa-fw {
+  margin-right: 5px;
 }
 
 /* Footer */
