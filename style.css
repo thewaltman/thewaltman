@@ -85,9 +85,6 @@ body {
 
 .img-gradient {
   max-width: 100%;
-  max-height: 150px;
-  margin: 0 0 40px 0;
-  overflow: clip;
 }
 
 .img-gradient::after {
@@ -156,6 +153,10 @@ body {
    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   }
+
+  .img-gradient::after {
+    margin-top: -30px;
+    height: 30px;
 
   .footer {
   -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
