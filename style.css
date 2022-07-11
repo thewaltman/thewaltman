@@ -43,6 +43,8 @@ body {
   background: #1488cc; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #1488cc 30%, #2b32b2 100%); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #1488cc 30%, #2b32b2 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #2b32b2 30%, #1488cc 100%); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #2b32b2 30%, #1488cc 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
